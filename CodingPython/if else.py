@@ -1,0 +1,7 @@
+# if else statement
+a = input("Enter Number: ")
+b = int(a)
+if(b%2 == 0):
+    print("Even Number")
+else:
+    print("Odd Number")  

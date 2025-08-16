@@ -1,0 +1,33 @@
+list = ['a','b','c','d','e'] 
+
+'''      0   1   2   3   4
+        -5  -4  -3  -2  -1
+'''         
+
+print(list[0]) # a
+print(list[-1]) # e
+print(list[-3]) # c
+
+#add new items in list
+#methods - append('item'),insert(index number,item), extend([items])
+
+list.append(6)
+print(list)
+ 
+list.insert(2,'#')
+list.insert(2,5)
+print(list) 
+list.extend(['c','*',3])
+print(list)   
+list.pop(1
+)
+print(list)
+list.extend(['a','b'])
+print(list)
+list.remove('a')
+print(list)
+for k in list:
+    print(k)
+print(5 in list) 
+for x in range(6):
+    print(x)  

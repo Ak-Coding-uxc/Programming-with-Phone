@@ -1,0 +1,11 @@
+# typecasting
+a = 3
+print(a)
+print(type(a))
+print(float(a))
+
+b = 6.89
+print("\n")
+print(b)
+print(type(b))
+print(int(b))
